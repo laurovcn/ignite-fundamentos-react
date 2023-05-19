@@ -28,14 +28,13 @@
 
 .profile strong {
   margin-top: 1rem;
-  color: var(-gray-100);
+  color: var(--gray-100);
   line-height: 1.6;
 }
 
 .profile span {
   font-size: 0.875rem;
-  color: var(-gray-400);
-  line-height: 1.6;
+  color: var(--gray-400)
 }
 
 .sidebar footer {
@@ -61,7 +60,7 @@
 
   gap: 0.5rem;
 
-  transition: color 0.1, background-color 0.1;
+  transition: color 0.1s, background-color 0.2s;
 }
 
 .sidebar footer a:hover {
